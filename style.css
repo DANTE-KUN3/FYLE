@@ -1,0 +1,49 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+#main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+#user-container {
+    grid-column: span 3;
+    text-align: center;
+}
+
+#repos-container {
+    grid-column: span 3;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.repo-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#pagination-container {
+    grid-column: span 3;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pagination-button {
+    margin: 0 5px;
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.active-page {
+    background-color: #0056b3;
+}
