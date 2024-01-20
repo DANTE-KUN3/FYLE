@@ -9,7 +9,7 @@ $(document).ready(function () {
     let currentPage = 1;
     let totalPages = 0;
 
-    const token = "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"; // Replace with your actual GitHub access token
+    const token = "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"; // Replace with your actual GitHub access token
 
     const getUser = async () => {
         const offset = Math.floor(Math.random() * 100000);
